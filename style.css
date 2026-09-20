@@ -1,0 +1,23 @@
+body{
+    background-color: #0B132B;
+}
+#app-container{
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(4, 42, 51);
+}
+#h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:antiquewhite;
+    font-size: larger;
+    position: fixed;
+    top: 25px;
+
+}
+
+#h2{
+    color: azure;
+    font-size:medium;
+    position: fixed;
+}

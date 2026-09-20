@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todo-app</title>
 </head>
-<body>
-    <h1 id="app-title">
-        this is my todo-app
-    </h1>
-    <h2>welcome to my productivity app</h2>
-    <h3>today's task</h3>
-    <ul>
-        <li>
-    <label>
-    <input type="checkbox" id="html-task">
-        <span id="html-task-text">learn html</span>
-    </label>
-    </li>
 
-        <li>learn css</li>
-        <li>learn js</li>
+<body>
+    <div id="app-container">
+    <div id="h1"><h1 id="app-title">
+        this is my todo-app
+    </h1></div>
+    <h2 id="h2">welcome to my productivity app</h2>
+    <h3>today's task</h3>
+    <input type="text" id="task-input" placeholder="enter new task">
+    <button id="add-task">add</button>
+    <ul id="task-list">
+
+        <li>
+            <label>
+                <input type="checkbox" id="html-task">
+                <span id="html-task-text">learn html</span>
+            </label>
+        </li>
+
+        <li>
+            <label>
+                <input type="checkbox" id="css-task">
+                <span id="css-task-text">learn css</span>
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" id="js-task">
+                <span id="js-task-text">learn js</span>
+            </label>
+        </li>
     </ul>
+    </div>
     <script src="script.js"></script>
 </body>
+
 </html>
