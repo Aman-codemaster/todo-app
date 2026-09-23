@@ -24,8 +24,9 @@ body{
 #sidebar{
     width: 200px;
     background-color: rgb(235, 228, 220);
-    height: 850px;
+    min-height: 100vh;
 }
+
 #h2{
     color: azure;
     font-size:medium;
@@ -64,6 +65,13 @@ li{
     border: none;
     cursor: pointer;
 }
-span{
-    color: black;
+.bar{
+    height: 3px;
+    width: 25px;
+    background-color: rgb(184, 230, 254);
+
+}
+
+.hidden{
+    display: none;
 }

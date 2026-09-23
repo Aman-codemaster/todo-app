@@ -30,6 +30,15 @@ jsTasktest.style.color = "azure"
 setupTask(cssTask, cssTasktest)
 setupTask(jsTask, jsTasktest)
 
+let button = document.getElementById("hamburger-btn") 
+let nav_link=document.getElementById("nav-links")
+let sidebar = document.getElementById("sidebar")
+button.addEventListener("click",function(){
+    console.log("button was clicked")
+    nav_link.classList.add("hidden");
+    sidebar.classList.add("hidden")
+})
+
 
 
 addTask.addEventListener("click", function () {
