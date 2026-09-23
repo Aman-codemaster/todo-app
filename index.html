@@ -9,36 +9,57 @@
 </head>
 
 <body>
-    <div id="app-container">
-    <div id="h1"><h1 id="app-title">
-        this is my todo-app
-    </h1></div>
-    <h2 id="h2">welcome to my productivity app</h2>
-    <h3>today's task</h3>
-    <input type="text" id="task-input" placeholder="enter new task">
-    <button id="add-task">add</button>
-    <ul id="task-list">
+    <div id="app">
+        <div id="sidebar">
+            <button id="hamburger-btn" class="hamburger" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">home</a></li>
+                <li><a href="#today-task">today's task</a></li>
+                <li><a href="#organisation">organisation</a></li>
+            </ul>
+        </div>
 
-        <li>
-            <label>
-                <input type="checkbox" id="html-task">
-                <span id="html-task-text">learn html</span>
-            </label>
-        </li>
+        <div id="main-content">
+            <div id="app-container">
+                <div id="h1">
+                    <h1 id="app-title">
+                        this is my todo-app
+                    </h1>
+                </div>
+                <h2 id="h2">welcome to my productivity app</h2>
+                <h3>today's task</h3>
+                <div id="input-area">
+                    <input type="text" id="task-input" placeholder="enter new task">
+                    <button id="add-task">add</button>
+                </div>
+                <ul id="task-list">
 
-        <li>
-            <label>
-                <input type="checkbox" id="css-task">
-                <span id="css-task-text">learn css</span>
-            </label>
-        </li>
-        <li>
-            <label>
-                <input type="checkbox" id="js-task">
-                <span id="js-task-text">learn js</span>
-            </label>
-        </li>
-    </ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" id="html-task">
+                            <span id="html-task-text">learn html</span>
+                        </label>
+                    </li>
+
+                    <li>
+                        <label>
+                            <input type="checkbox" id="css-task">
+                            <span id="css-task-text">learn css</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" id="js-task">
+                            <span id="js-task-text">learn js</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -6,18 +6,64 @@ body{
     margin: 50px auto;
     padding: 30px;
     background-color: rgb(4, 42, 51);
+    border-radius: 16px;
 }
-#h1{
+#app-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:antiquewhite;
     font-size: larger;
     position: fixed;
     top: 25px;
-
+    font-size: 36px;
+    text-decoration: underline;
 }
 
+#app{
+    display: flex ;
+}
+#sidebar{
+    width: 200px;
+    background-color: rgb(235, 228, 220);
+    height: 850px;
+}
 #h2{
     color: azure;
     font-size:medium;
     position: fixed;
+}
+
+#task-input {
+    width: 70%;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#add-task {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#input-area{
+    display:flex;
+    gap: 10px;
+    display: flexbox 1px;
+}
+li{
+    margin-bottom: 15px;    
+}
+#hamburger-btn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+span{
+    color: black;
 }
