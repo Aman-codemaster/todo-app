@@ -7,6 +7,8 @@ body{
     padding: 30px;
     background-color: rgb(4, 42, 51);
     border-radius: 16px;
+
+    
 }
 #app-title{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -16,6 +18,25 @@ body{
     top: 25px;
     font-size: 36px;
     text-decoration: underline;
+}
+#task-list li{    
+    border: 2px solid #333333;
+    background-color: #8a98d2;
+    padding: 20px;
+    width: 300px;
+    text-align:left;
+    border-radius: 8px;
+    border-radius: 16px;
+}
+#task-list li span {
+    color: #333333;
+}
+#task-list li label {
+    display: flex;
+    justify-content: space-between;
+}
+#task-list{
+    list-style-type: none; 
 }
 
 #app{
@@ -74,4 +95,14 @@ li{
 
 .hidden{
     display: none;
+}
+
+.nav-links{
+    list-style-type: none; 
+    padding: 0;    
+    margin: 25px auto;
+    padding: 10px;
+}
+.nav-links li{
+    margin: 10px;
 }
